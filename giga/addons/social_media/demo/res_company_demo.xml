@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<giga>
+    <record id="base.main_company" model="res.company">
+        <field name="social_twitter">https://twitter.com/Giga</field>
+        <field name="social_facebook">https://www.facebook.com/Giga</field>
+        <field name="social_linkedin">https://www.linkedin.com/company/giga</field>
+        <field name="social_youtube">https://www.youtube.com/user/GigaERPonline</field>
+        <field name="social_github">https://github.com/giga</field>
+        <field name="social_instagram">https://www.instagram.com/explore/tags/giga/</field>
+    </record>
+</giga>

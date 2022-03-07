@@ -1,0 +1,34 @@
+
+.zoomgiga {
+    position: relative;
+
+    /* 'Shrink-wrap' the element */
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+
+    img {
+        vertical-align: bottom;
+    }
+}
+
+.zoomgiga-flyout {
+    position:absolute;
+    z-index: 100;
+    overflow: hidden;
+    background: #FFF;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    img {
+        max-width: 500%;
+    }
+}
+
+.zoomgiga-hover .zoomgiga-flyout {
+    left: 0;
+}
+
+.zoomgiga-next .zoomgiga-flyout {
+    left: 100%;
+}

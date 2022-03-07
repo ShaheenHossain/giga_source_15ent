@@ -1,0 +1,5 @@
+/var/log/giga/*.log {
+    copytruncate
+    missingok
+    notifempty
+}
