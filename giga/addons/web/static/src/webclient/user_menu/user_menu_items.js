@@ -7,7 +7,7 @@ import { _lt } from "../../core/l10n/translation";
 import { session } from "@web/session";
 
 function documentationItem(env) {
-    const documentationURL = "https://www.gigasource.de/documentation/15.0";
+    const documentationURL = "https://www.gigasource.de";
     return {
         type: "item",
         id: "documentation",
@@ -76,7 +76,7 @@ function gigaAccountItem(env) {
     return {
         type: "item",
         id: "account",
-        description: env._t("My gigasource.de.account"),
+        description: env._t("My GigaSource Account"),
         callback: () => {
             env.services
                 .rpc("/web/session/account")
@@ -84,7 +84,7 @@ function gigaAccountItem(env) {
                     browser.location.href = url;
                 })
                 .catch(() => {
-                    browser.location.href = "https://accounts.gigasource.de/account";
+                    browser.location.href = "https://gigasource.de";
                 });
         },
         sequence: 60,

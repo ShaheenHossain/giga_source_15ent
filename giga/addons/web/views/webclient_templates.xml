@@ -12,7 +12,7 @@
                 <meta charset="utf-8"/>
                 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-                <title t-esc="title or 'Giga'"/>
+                <title t-esc="title or 'Giga Source'"/>
                 <link type="image/x-icon" rel="shortcut icon" t-att-href="x_icon or '/web/static/img/favicon.ico'"/>
 
                 <script id="web.layout.gigascript" type="text/javascript">
@@ -123,7 +123,7 @@
                             <t t-if="not disable_database_manager">
                                 <a class="border-right pr-2 mr-1" href="/web/database/manager">Manage Databases</a>
                             </t>
-                            <a href="https://www.gigasource.de?utm_source=db&amp;utm_medium=auth" target="_blank">Powered by <span>Giga</span></a>
+                            <a href="https://www.gigasource.de" target="_blank">Powered by <span>Giga Source</span></a>
                         </div>
                     </div>
                 </div>
