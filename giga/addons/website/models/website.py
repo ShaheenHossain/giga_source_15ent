@@ -41,7 +41,7 @@ DEFAULT_CDN_FILTERS = [
     "^/website/image/",
 ]
 
-DEFAULT_ENDPOINT = 'https://website.api.gigasource.de'
+DEFAULT_ENDPOINT = 'https://website.api.odoo.com'
 
 
 class Website(models.Model):
